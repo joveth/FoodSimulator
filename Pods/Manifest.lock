@@ -1,0 +1,16 @@
+PODS:
+  - MBProgressHUD (0.9.1)
+  - MJRefresh (3.0.7)
+  - skpsmtpmessage (0.0.1)
+
+DEPENDENCIES:
+  - MBProgressHUD (~> 0.9.1)
+  - MJRefresh
+  - skpsmtpmessage
+
+SPEC CHECKSUMS:
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MJRefresh: f3e1228ec3d38c7ba5208d58032631a52f39f495
+  skpsmtpmessage: f6e913380c784dd8d4a9f83c8790a302445a5e05
+
+COCOAPODS: 0.38.2
