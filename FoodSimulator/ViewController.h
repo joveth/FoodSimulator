@@ -10,8 +10,13 @@
 #import "FoodBean.h"
 #import "MBProgressHUD.h"
 #import "Common.h"
+#import "CookFoodBean.h"
+#import "DBHelper.h"
+#import "ShareData.h"
+#import "DataBean.h"
+#import "AboutController.h"
 
-@interface ViewController : UIViewController<UIGestureRecognizerDelegate>
+@interface ViewController : UIViewController<UIGestureRecognizerDelegate,UITableViewDataSource,UITableViewDelegate>
 
 
 @end

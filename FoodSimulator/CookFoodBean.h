@@ -19,7 +19,7 @@
 @property (nonatomic,assign) CGFloat hunger;
 @property (nonatomic,assign) CGFloat sanity;
 @property (nonatomic,assign) CGFloat perish;
-
+@property (nonatomic,copy) NSString *img;
 -(BOOL)test:(NSMutableArray *)cooker;
 
 @end

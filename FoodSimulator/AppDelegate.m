@@ -18,6 +18,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    DBHelper *db = [DBHelper sharedInstance];
+    if([db openDB]){
+        NSInteger cnt = [db getCnt];
+        if(cnt==0){
+            [db initData:nil];
+        }
+    }
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor=[UIColor whiteColor];
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[ViewController alloc] init]];
